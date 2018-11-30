@@ -17,8 +17,6 @@ def postSlack(msg=None, username=None, status=None): #status good warning danger
           ]
   }))
 
-
-
 if __name__ == '__main__':
   args = sys.argv
   msg = args[1]
